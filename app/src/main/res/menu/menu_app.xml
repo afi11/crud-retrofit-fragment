@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_cart"
+        android:icon="@drawable/ic_shopping_cart"
+        android:title="Keranjang"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_profil"
+        android:icon="@drawable/ic_account"
+        android:title="Akun"
+        app:showAsAction="ifRoom" />
+</menu>
